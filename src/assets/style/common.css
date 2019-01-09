@@ -1,0 +1,69 @@
+.ion-ios-arrow-right {
+	background-image: url(/static/common/more.png)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: .28rem !important;
+	width: .28rem;
+	right: .34rem!important;
+}
+.ion-ios-arrow-right:before {
+    content: "";
+}
+.ion-ios-arrow-back {
+	background-image: url(/static/common/left.png)!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    height: .4rem !important;
+    width: .49rem;
+    right: -50%;
+}
+.ion-ios-arrow-back:before {
+	content: "";
+}
+.ion-ios-checkmark.positive{
+    background-image: url(/static/common/checked.png)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: .5rem !important;
+    width: .5rem;
+    top: 20%;
+}
+.ion-ios-checkmark.grey{
+    background-image: url(/static/common/check.png)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: .5rem !important;
+    width: .5rem;
+    top: 20%;
+}
+.ion-ios-checkmark:before {
+	content: "";
+}
+.von-radio .item-icon-left .icon{
+    left: 0px;
+}
+.list-ios{
+    padding-left: 0!important;
+}
+.list-ios .item{
+    padding-left: .3rem;
+    padding-right: .3rem;
+}   
+.orderInfoBox  .input-clear{
+    display: none;
+}
+.logisticsInfoBox .input-clear{
+    display: none;
+}
+.dateBox .Rate{
+    display: inline;
+    padding: .1rem 0 0 .2rem;
+}
+.dateBox .Rate .icon{
+    margin: 0 2px !important;
+    width: 12px;
+}
